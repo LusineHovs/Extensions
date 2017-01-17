@@ -13,6 +13,16 @@ namespace TestingProgram
         {
             var eng = "barev";
             eng.engarmConverter();
+            string[] st = new string[eng.Length];
+            for (int i = 0; i < eng.Length; i++)
+
+            {
+                st[i] = eng.engarmConverter()[i];
+            }
+            for (int i = 0; i <eng.Length; i++)
+            {
+                Console.WriteLine(st[i]);
+            }
         }
     }
 }
