@@ -10,15 +10,17 @@ namespace ExtensionMethod1
     {
         public static string[] engarmConverter(this string engWord)
         {
-            string[] armLetter = new string[engWord.Length];
 
+            string[] armLetter = new string[engWord.Length];
             for (int i = 0; i < engWord.Length; i++)
             {
-                if (i != engWord.Length - 1)
+                if (i != engWord.Length-1)
                 {
                     if (engWord.Substring(i, 2) == "ev")
-                    { armLetter[i] = "և";
-                       i=i+2;
+                    {
+                        armLetter[i] = "և";
+                        i++;
+                        continue;
                     }
                 }
                 
@@ -49,7 +51,8 @@ namespace ExtensionMethod1
                 if(engWord[i] == 'y') armLetter[i] = "յ";
                 if(engWord[i] == 'z') armLetter[i] = "զ";
                 if(engWord[i] == '@') armLetter[i] = "ը";
-                
+                if(engWord[i] == ' ') armLetter[i] = " ";
+
             }
             return armLetter;
         }

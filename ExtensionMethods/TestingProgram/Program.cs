@@ -8,7 +8,7 @@ namespace TestingProgram
         static void Main(string[] args)
         {
 
-            var eng = "vrvrwhetevi";
+            var eng = "barev";
             eng.engarmConverter();
             string[] st = new string[eng.Length];
             for (int i = 0; i < eng.Length; i++)
