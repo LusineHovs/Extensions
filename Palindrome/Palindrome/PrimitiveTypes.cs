@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Palindrome
+namespace ExtensionMethod2
 {
     public static class PrimitiveTypes
     {
