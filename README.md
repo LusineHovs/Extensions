@@ -3,8 +3,7 @@ In this repository you can find some interesting extension methods, which usage 
 #Keywords
 C# 6.0, .Net Framework 4.6, Microsoft Visual Studio.
 
-
-[GitHub](https://github.com/LusineHovs/Extensions/tree/master/EngArmConverter)
+https://github.com/LusineHovs/Extensions/tree/master/EngArmConverter
 
 
 
