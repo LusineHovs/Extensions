@@ -14,6 +14,7 @@ namespace ExtensionMethod1
             string[] armLetter = new string[engWord.Length];
             for (int i = 0; i < engWord.Length; i++)
             {
+                #region Double letters' convertion
                 if (i != engWord.Length-1)
                 {
                     if (engWord.Substring(i, 2) == "ev")
@@ -23,7 +24,71 @@ namespace ExtensionMethod1
                         continue;
                     }
                 }
-                
+                if (i != engWord.Length - 1)
+                {
+                    if (engWord.Substring(i, 2) == "ch")
+                    {
+                        armLetter[i] = "չ";
+                        i++;
+                        continue;
+                    }
+                }
+                if (i != engWord.Length - 1)
+                {
+                    if (engWord.Substring(i, 2) == "jh")
+                    {
+                        armLetter[i] = "ժ";
+                        i++;
+                        continue;
+                    }
+                }
+                if (i != engWord.Length - 1)
+                {
+                    if (engWord.Substring(i, 2) == "dz")
+                    {
+                        armLetter[i] = "ձ";
+                        i++;
+                        continue;
+                    }
+                }
+                if (i != engWord.Length - 1)
+                {
+                    if (engWord.Substring(i, 2) == "gh")
+                    {
+                        armLetter[i] = "ղ";
+                        i++;
+                        continue;
+                    }
+                }
+                if (i != engWord.Length - 1)
+                {
+                    if (engWord.Substring(i, 2) == "sh")
+                    {
+                        armLetter[i] = "շ";
+                        i++;
+                        continue;
+                    }
+                }
+                if (i != engWord.Length - 1)
+                {
+                    if (engWord.Substring(i, 2) == "ts")
+                    {
+                        armLetter[i] = "ծ";
+                        i++;
+                        continue;
+                    }
+                }
+                if (i != engWord.Length - 1)
+                {
+                    if (engWord.Substring(i, 2) == ":)")
+                    {
+                        armLetter[i] = "\u263B";
+                        i++;
+                        continue;
+                    }
+                }
+                #endregion
+                #region Single letters' convertion 
                 if (engWord[i] == 'a') armLetter[i] = "ա";
                 if (engWord[i] == 'b') armLetter[i] = "բ";
                 if(engWord[i] == 'c') armLetter[i] = "ց";
@@ -52,7 +117,7 @@ namespace ExtensionMethod1
                 if(engWord[i] == 'z') armLetter[i] = "զ";
                 if(engWord[i] == '@') armLetter[i] = "ը";
                 if(engWord[i] == ' ') armLetter[i] = " ";
-
+                #endregion
             }
             return armLetter;
         }
