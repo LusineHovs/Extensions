@@ -3,10 +3,10 @@
 
 **EngArmConverter extension method** converts armenian words written in english letters to armenian letters.
 
-**EngArm class**
+#**EngArm class**
 Here you can see *Double letters' convertion* codes and *Single letters' convertion* codes.
 
-**TestingProgram**
+#**TestingProgram**
 This part is for users. 
 
 ```C#
@@ -26,7 +26,7 @@ Console.ReadKey();
 ```
 In the above mentioned code, users can write sentence which they want to convert.
 
-**Output**
+#**Output**
 
 
 
