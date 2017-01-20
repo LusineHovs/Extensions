@@ -28,6 +28,4 @@ Console.ReadKey();
 In the above mentioned code, users can write sentence which they want to convert.
 
 #Output
-<img src="https://cloud.githubusercontent.com/assets/24455176/22056353/2e05f326-dd79-11e6-89e8-b1a5d2de8778.png" align="left"  />
- 
-<img src="https://cloud.githubusercontent.com/assets/24455176/22056403/6a7d650a-dd79-11e6-9801-e50174523fbf.jpg" align="left"  />
+<img src="https://cloud.githubusercontent.com/assets/24455176/22103760/dbded8dc-de55-11e6-9a40-ed52fa1ba92e.gif" align="left"  />
