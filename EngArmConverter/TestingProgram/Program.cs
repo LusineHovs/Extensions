@@ -8,19 +8,20 @@ namespace TestingProgram
         static void Main(string[] args)
         {
 
-            var eng = "barev usucich :)";
-            eng.engarmConverter();
-            string[] st = new string[eng.Length];
-            for (int i = 0; i < eng.Length; i++)
+       var eng = Console.ReadLine();
+       var engLower= eng.ToLower();
+       engLower.engarmConverter();
+       string[] st = new string[engLower.Length];
+       for (int i = 0; i < engLower.Length; i++)
 
-            {
-                st[i] = eng.engarmConverter()[i];
-            }
-            for (int i = 0; i < eng.Length; i++)
-            {
-                Console.Write(st[i]);
-            }
-            Console.ReadKey();
+        {
+            st[i] = engLower.engarmConverter()[i];
+        }
+        for (int i = 0; i < engLower.Length; i++)
+        {
+            Console.Write(st[i]);
+        }
+        Console.ReadKey();
 
         }
     }
