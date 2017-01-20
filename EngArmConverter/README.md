@@ -25,7 +25,7 @@ for (int i = 0; i < engLower.Length; i++)
 }
 Console.ReadKey();
 ```
-In the above mentioned code, users can write sentence which they want to convert.
+Below is the program's demonstration gif.
 
 #Output
 
