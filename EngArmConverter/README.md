@@ -25,7 +25,7 @@ for (int i = 0; i < engLower.Length; i++)
 }
 Console.ReadKey();
 ```
-Below is the program's demonstration gif: you write armenian words written in english letters program converted it into armenian letters.
+Below is the program's demonstration gif: you write armenian words written in english letters, program convertes it into armenian letters.
 
 #Output
 
